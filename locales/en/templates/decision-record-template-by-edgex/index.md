@@ -1,9 +1,6 @@
 # Architecture Decision Record (ADR) template <!-- Replace with ADR title -->
 
-This is a template for EdgeX Foundry ADR.
-
-Source: https://docs.edgexfoundry.org/2.3/design/adr/template/
-
+This is a template for CSP  ADR.
 
 ### Submitters
 
@@ -13,12 +10,13 @@ Format:
 
 - Name (Organization)
 
+## Status
+
+What is the status, such as proposed, accepted, rejected, deprecated, superseded, etc.?
 
 ## Change Log
 
 List the changes to the document, incl. state, date, and PR URL.
-
-State is one of: pending, approved, amended, deprecated.
 
 Date is an ISO 8601 (YYYY-MM-DD) string.
 
@@ -75,14 +73,56 @@ Outline:
 Document alternatives, concerns, ancillary or related issues, questions that arose in debate of the ADR. 
 
 Indicate if/how they were resolved or mollified.
+* [option 1]
+* [option 2]
+* [option 3]
+* … <!-- numbers of options can vary -->
 
 
 ## Decision
 
+What is the change that we're proposing and/or doing?
 Document any agreed upon important implementation detail, caveats, future considerations, remaining or deferred design issues.
 
 Document any part of the requirements not satisfied by the proposed design.
+Following can also be answered:-
+    * Who else provided the feedback opinion?
 
+    * What are other candidates options you considered?
+
+    * What are you creating? 
+
+      * Examples
+
+        * B2B or B2C
+
+        * external-facing or employee-only
+
+        * desktop or mobile
+
+        * pilot or production
+        * monolith or microservices
+
+    * How did you evaluate the candidates?
+
+    * Why did you choose the winner?
+
+    * What is happening since then?
+
+      * Examples
+
+        * How is the winner performing?
+
+        * What % of real-world production user traffic is flowing through the winner?
+
+        * What kinds of integrations are involved, such as with continuous delivery pipelines, content management systems, analytics and metrics, etc.?
+
+        * Knowing what you know now, what would you advise people to do differently?
+
+
+## Consequences
+
+What becomes easier or more difficult to do because of this change?
 
 ## Other Related ADRs
 
